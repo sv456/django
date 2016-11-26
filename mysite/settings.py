@@ -25,7 +25,8 @@ SECRET_KEY = '(yi2$@xbl1x48*rx7mlg5n8k7*_dl9ug&y3upz9xwv6%y1e#z-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [u'nakama.pythonanywhere.com',]
+ALLOWED_HOSTS = [u'nakama.pythonanywhere.com',
+					u'localhost' ]
 
 
 # Application definition
